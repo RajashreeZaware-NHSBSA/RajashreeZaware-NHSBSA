@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Verify Do you claim any benefits or tax credits screen
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 32.509 s <<< FAILURE! - in Verify Do you claim any benefits or tax credits screen
+Verify Do you claim any benefits or tax credits screen.Validate user gets valid output on claim any benefits or tax credits screen #1  Time elapsed: 20.152 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" is null
+	at pages.LandingPage.acceptCookies(LandingPage.java:20)
+	at stepDefinitions.LandingScreenSteps.I_want_to_check_nhs_costs_online_service(LandingScreenSteps.java:38)
+	at ✽.I want to check nhs costs online service(file:///C:/Users/Rajashr14742/eclipse-workspace/nhs_costs_online_service_acceptance_test/src/test/resources/features/Claim_Benefits_Tax_Credits_Screen.feature:5)
+
+Verify Do you claim any benefits or tax credits screen.Validate user gets valid output on claim any benefits or tax credits screen #2  Time elapsed: 12.356 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" is null
+	at pages.LandingPage.acceptCookies(LandingPage.java:20)
+	at stepDefinitions.LandingScreenSteps.I_want_to_check_nhs_costs_online_service(LandingScreenSteps.java:38)
+	at ✽.I want to check nhs costs online service(file:///C:/Users/Rajashr14742/eclipse-workspace/nhs_costs_online_service_acceptance_test/src/test/resources/features/Claim_Benefits_Tax_Credits_Screen.feature:5)
+

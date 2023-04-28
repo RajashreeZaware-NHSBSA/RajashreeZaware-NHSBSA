@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Verify dental practice country screen
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.572 s <<< FAILURE! - in Verify dental practice country screen
+Verify dental practice country screen.Validate user gets valid output on dental practice country screen  Time elapsed: 19.572 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" is null
+	at pages.LandingPage.acceptCookies(LandingPage.java:20)
+	at stepDefinitions.LandingScreenSteps.I_want_to_check_nhs_costs_online_service(LandingScreenSteps.java:38)
+	at ✽.I want to check nhs costs online service(file:///C:/Users/Rajashr14742/eclipse-workspace/nhs_costs_online_service_acceptance_test/src/test/resources/features/Dental_Practice_Country_Screen.feature:5)
+

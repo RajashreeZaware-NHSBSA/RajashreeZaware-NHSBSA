@@ -1,0 +1,12 @@
+pages\DateOfBirthScreenPage.class
+pages\DentalPracticeCountryScreenPage.class
+pages\PaidUniversalCreditScreenPage.class
+common\Driver.class
+pages\GpInScotlandOrWalesScreenPage.class
+testrunners\TestRunner.class
+pages\ClaimBenefitsTaxCreditsScreenPage.class
+stepDefinitions\LandingScreenSteps.class
+pages\LandingPage.class
+pages\LiveWithPartnerScreenPage.class
+pages\UniversalCreditClaimScreenPage.class
+pages\WhereYouLiveScreenPage.class

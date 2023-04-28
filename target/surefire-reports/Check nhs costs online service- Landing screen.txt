@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Check nhs costs online service- Landing screen
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.671 s <<< FAILURE! - in Check nhs costs online service- Landing screen
+Check nhs costs online service- Landing screen.Validate user able to click on start now button  Time elapsed: 19.671 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" is null
+	at pages.LandingPage.acceptCookies(LandingPage.java:20)
+	at stepDefinitions.LandingScreenSteps.I_want_to_check_nhs_costs_online_service(LandingScreenSteps.java:38)
+	at ✽.I want to check nhs costs online service(file:///C:/Users/Rajashr14742/eclipse-workspace/nhs_costs_online_service_acceptance_test/src/test/resources/features/Landing_Screen.feature:5)
+
